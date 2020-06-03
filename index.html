@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+
+    <meta charset="UTF-8">
+        <!-- We need the following responsive meta tag to ensure things scale correctly across varying devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Michael Shattuck</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     />
+
+</head>
+
+<body>
+
+ <!-- Static navbar -->
+
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand mr-3">Michael Shattuck</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link">About</a>
+                <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+               
+            </div>
+            <div class="navbar-nav ml-auto">                    
+            </div>
+        </div>
+    </div>    
+</nav>
+
+ <!-- Contact Form-->
+  <div class="container">
+	<div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-center">Contact Me</legend>
+    
+            <!-- Name input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+              <div class="col-md-9">
+                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your message</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+
+
+
+
+
+</body>
+
+
+</html>
